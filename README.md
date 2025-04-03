@@ -45,3 +45,11 @@ pip install tensorflow numpy pandas imageio matplotlib
 The U-Net architecture consists of:
 - **Contracting Path**: Downsampling with convolutional layers and max-pooling.
 - **Expanding Path**: Upsampling with transposed convolutions and skip connections from the contracting path.
+
+The model outputs pixel-wise class predictions for segmentation tasks.
+
+## Example Results
+
+During training, the script will output accuracy and loss metrics and display segmentation results. The following example shows input images, ground truth masks, and predicted masks side-by-side.
+
+
